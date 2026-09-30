@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Student Portfolio Website</title>
+
+<style>
+    h1 {
+    color: blue;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+h2 {
+    text-align:justify;
+}
+
+.highlight {
+    color: magenta;
+}
+
+#student-name {
+    color: maroon;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <H1>Student Portal</H1>
+    </header>
+        <nav>
+            <a href="#">Home</a> <br>
+            <a href="#">Profile</a> <br>
+            <a href="#">Courses</a> <br>
+            <a href="#">Register</a> <br>
+        </nav>
+
+        <section>
+            <h2>Student Profile</h2>
+
+            <table>
+                <thead>
+                    <th>Field</th>
+                    <th>Value</th>
+                </thead>
+            <tbody> 
+                <tr>
+                    <td>Name</td>
+                    <td id="student-name">Mohammed Fahim Jhadwale</td>
+                </tr>
+                <tr>
+                    <td>Student ID</td>
+                    <td>26BCS10279</td>
+                </tr>
+                <tr>
+                    <td>Program</td>
+                    <td>Computer Science</td>
+                </tr>
+                <tr>
+                    <td>Year</td>
+                    <td class="highlight">1st Year</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>fahim.jhadwale27@gmail.com</td>
+                </tr>
+            </tbody>       
+            </table>
+        </section>
+
+        <section>
+            <h2>My Skills</h2>
+
+            <ul>
+                 <li>HTML</li>
+                 <li>CSS</li>
+                 <li>JavaScript</li>
+                 <li>Python</li>
+                 <li>Git</li>         
+            </ul>
+        </section>
+
+        <section>
+            <h2>Weekly Schedule</h2>
+
+            <table>
+                <thead>
+                    <th>Day</th>
+                    <th>9:00 AM</th>
+                    <th>11:00 AM</th>
+                     <th>2:00 PM</th>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>HTML</td>
+                        <td>Maths</td>
+                        <td>DSA</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>CSS</td>
+                        <td>DBMS</td>
+                        <td>English</td>
+                    </tr>
+
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>JavaScript</td>
+                        <td>DSA</td>
+                        <td>Maths</td>
+                    </tr>
+
+                    <tr>
+                        <td>Thursday</td>
+                        <td>DBMS</td>
+                        <td>HTML</td>
+                        <td>Project</td>
+                    </tr>
+
+                    <tr>
+                        <td>Friday</td>
+                        <td>DSA</td>
+                        <td>CSS</td>
+                        <td>Workshop</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+    
+        <section>
+         <h2>Course Registration</h2>
+        <form action="">
+         
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name"> <br> <br>
+
+                <label for="email">Email</label>
+                 <input type="email" name="email" id="email"> <br> <br>
+
+                 <label for="studentid">Student ID</label> 
+                 <input type="text" name="" id=""> <br> <br>
+
+                 <label for="Course">Course Selection</label> 
+
+                 <select name="course" id="Course"> 
+                    <option value="">Please choose an option</option>
+                    <option value="htmlcss">HTML & CSS</option>
+                    <option value="Javasc">JavaScript</option>
+                    <option value="python">Python</option>
+                    <option value="datast">Data Structures</option>
+                 </select> <br> <br>
+                
+                 <label for="Preferred">Preferred Learning Mode : </label>
+                 <label for="online">Online</label>
+                 <input type="radio" name="Preferred" id="online">
+                 <label for="offline">Offline</label>
+                 <input type="radio" name="Preferred" id="offline">
+                 <br><br>
+
+                 <label for="skills">Skills You Already Know : </label>
+                 <div>
+                    <input type="checkbox" name="" id="">
+                 <label for="">HTML</label>
+                  
+                  </div>
+
+                  <div>
+                    <input type="checkbox" name="" id="">
+                 <label for="">CSS</label>
+                  
+                  </div>
+
+                  <div>
+                    <input type="checkbox" name="" id="">
+                 <label for="">JavaScript</label>
+                  
+                  </div>
+
+                  <div>
+                    <input type="checkbox" name="" id="">
+                 <label for="">Python</label>
+                  
+                  </div> <br> <br>
+
+            <button type="submit">Submit</button>    
+            <button type="reset">Reset</button>  
+        </form>
+        </section>
+
+
+
+
+</body>
+</html>
